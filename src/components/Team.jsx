@@ -6,48 +6,58 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 export const Team = () => {
 
   return (
-    <div className="flex flex-col justify-center max-w-[1248px] mx-auto p-4 w-full mt-40 mb-20"> 
-      <div className='flex flex-col items-center'>
-        <p className='text-5xl font-bold border-b-[3px] border-y-pink pt-20'>Our Team</p>
-        <p className='text-2xl text-gray-pink py-8'>Meet the engineers behind Proteus</p>
-      </div>
-      <div className='w-full flex justify-center flex-wrap gap-10 text-center p-8'>
-        <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
-          <img src="src/assets/bianca.png" alt="image_bianca" className='w-28 h-28 rounded-full shadow-2xl self-center mb-12 border-2 border-white' ></img>
-          <p className="text-2xl">Bianca Hua</p>
-          <p className="text-1xl py-1">Software Engineer</p>
-          <div className="flex flex-row justify-between gap-6 py-3">
-            <a className="hover:scale-110 duration-300" href="https://github.com/biancahua"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
-            <a className="hover:scale-110 duration-300" href="https://www.linkedin.com/in/biancahua"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
-          </div>
+    <div className="px-24">
+      <div className="flex flex-col justify-center max-w-[1248px] mx-auto p-4 w-full mt-40 mb-20"> 
+        <div className='flex flex-col items-center'>
+          <p className='text-5xl font-bold border-b-[3px] border-y-pink pt-20'>Our Team</p>
+          <p className='text-2xl text-gray-pink py-8'>Meet the engineers behind Proteus</p>
         </div>
-        <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
-          <img src="src/assets/eddy.png" alt="image_eddy" className='w-28 h-28 rounded-full shadow-2xl self-center mb-12 border-2 border-white' ></img>
-          <p className="text-2xl">Eddy Kaggia</p>
-          <p className="text-1xl py-1">Software Engineer</p>
-          <div className="flex flex-row justify-between gap-6 py-3">
-            <a className="hover:scale-110 duration-300" href="https://github.com/eddykaggia"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
-            <a className="hover:scale-110 duration-300" href="TBD"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
+        <div className='w-full flex justify-center flex-wrap gap-10 text-center p-8'>
+          <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
+            <div id='team-circles'>
+              <img src="src/assets/bianca.png" alt="image_bianca" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
+            </div>
+            <p className="text-2xl">Bianca Hua</p>
+            <p className="text-1xl py-1">Software Engineer</p>
+            <div className="flex flex-row justify-between gap-6 py-3">
+              <a className="hover:scale-110 duration-300" href="https://github.com/biancahua"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
+              <a className="hover:scale-110 duration-300" href="https://www.linkedin.com/in/biancahua"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
+            </div>
           </div>
+          <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
+            <div id='team-circles'>
+              <img src="src/assets/eddy.png" alt="image_eddy" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
+            </div>
+            <p className="text-2xl">Eddy Kaggia</p>
+            <p className="text-1xl py-1">Software Engineer</p>
+            <div className="flex flex-row justify-between gap-6 py-3">
+              <a className="hover:scale-110 duration-300" href="https://github.com/eddykaggia"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
+              <a className="hover:scale-110 duration-300" href="TBD"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
+            <div id='team-circles'>
+              <img src="src/assets/mark.png" alt="image_mark" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
+            </div>
+            <p className="text-2xl">Mark Bryan</p>
+            <p className="text-1xl py-1">Software Engineer</p>
+            <div className="flex flex-row justify-between gap-6 py-3">
+              <a className="hover:scale-110 duration-300" href="https://github.com/mbryan13"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
+              <a className="hover:scale-110 duration-300" href="www.linkedin.com/in/marklawbryan"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
+            <div id='team-circles'>
+              <img src="src/assets/matt.png" alt="image_matt" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
+            </div>
+            <p className="text-2xl">Matt Henely</p>
+            <p className="text-1xl py-1">Software Engineer</p>
+            <div className="flex flex-row justify-between gap-6 py-3">
+              <a className="hover:scale-110 duration-300" href="https://github.com/mhenely"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
+              <a className="hover:scale-110 duration-300" href="www.linkedin.com/in/matt-henely"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
+            </div>
+          </div>  
         </div>
-        <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
-          <img src="src/assets/mark.png" alt="image_mark" className='w-28 h-28 rounded-full shadow-2xl self-center mb-12 border-2 border-white' ></img>
-          <p className="text-2xl">Mark Bryan</p>
-          <p className="text-1xl py-1">Software Engineer</p>
-          <div className="flex flex-row justify-between gap-6 py-3">
-            <a className="hover:scale-110 duration-300" href="https://github.com/mbryan13"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
-            <a className="hover:scale-110 duration-300" href="https://www.linkedin.com/in/mark-bryan-392015162/"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
-          </div>
-        </div>
-        <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
-          <img src="src/assets/matt.png" alt="image_matt" className='w-28 h-28 rounded-full shadow-2xl self-center mb-12 border-2 border-white' ></img>
-          <p className="text-2xl">Matt Henely</p>
-          <p className="text-1xl py-1">Software Engineer</p>
-          <div className="flex flex-row justify-between gap-6 py-3">
-            <a className="hover:scale-110 duration-300" href="https://github.com/mhenely"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
-            <a className="hover:scale-110 duration-300" href="TBD"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
-          </div>
-        </div>  
       </div>
     </div>
   )

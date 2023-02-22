@@ -56,3 +56,7 @@
   transition: background-color .5s ease-in-out;
   color: white;
 }
+
+#team-circle {
+    border: solid 3px white inset;
+}
