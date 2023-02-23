@@ -30,4 +30,3 @@ function App() {
 export default App
 
 
-{/* <div className="border-[5px] border-pink px-24 py-5"><GettingStarted /></div> */}

@@ -4,14 +4,14 @@ import React from "react";
 export const GettingStarted = () => {
 
   return (
-    <div className="py-24">
-      <div>
-        <div className="flex flex-col justify-center px-10">
+    <div className="py-24 my-40 px-24">
+      <div >
+        <div className="flex flex-col items-center">
           <p className="text-4xl py-10 text-center">Getting Started</p>
-          <p className="text-lg pb-10 text-zinc-800">Welcome to our application! This guide will help you get started using our app. Whether you're a first-time user or just need a refresher, we've got you covered. We'll walk you through the setup process and show you how to use our product to its fullest potential.</p>
+          <p className="text-lg pb-10 text-zinc-800">Welcome to Proteus! This guide will help you get started using our app. Whether you're a first-time user or just need a refresher, we've got you covered. We'll walk you through the setup process and show you how to use Proteus to its fullest potential.</p>
           <p className="text-lg text-zinc-800">If you're interested in more detailed information on Proteus' features and functionality, be sure to check out our documentation. But for now, let's dive in and get started with using our app!</p>
         </div>
-        <div className="flex flex-col items-center px-24 py-10">
+        <div className="flex flex-col items-center md:px-24 sm:px-8 py-10">
           <ol className="text-lg font-bold">
             <li>1.  Download our desktop application from GitHub</li>
             <li>2.  Configure your Kubernetes cluster port within the application</li>
@@ -24,7 +24,7 @@ export const GettingStarted = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center px-10">
-        <div className="text-4xl py-10 text-center font-bold">
+        <div className="text-4xl pb-10 pt-24 text-center font-bold">
           <p>Demo</p>
         </div>
         <div id='gif1' className="flex flex-col items-center py-8">

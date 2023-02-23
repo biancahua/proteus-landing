@@ -17,10 +17,10 @@ export const Home = () => {
       <div>
         <Features />
       </div>
-      <div>
+      <div id={'team'}>
         <Team />
       </div>
-      <div>
+      <div id={'contact'}>
         <Contact />
       </div>
     </div>
