@@ -1,8 +1,7 @@
-import {React} from 'react';
-import { Route, Routes } from 'react-router-dom';
-import { Features } from './Features';
-import { Team } from './Team';
-import { Contact } from './Contact';
+import { React } from 'react';
+import { Features } from '/src/components/Features.jsx';
+import { Team } from '/src/components/Team.jsx';
+import { Contact } from '/src/components/Contact.jsx';
 
 export const Home = () => {
   return (

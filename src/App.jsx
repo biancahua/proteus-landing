@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import './App.css'
-import { Navbar } from './components/Navbar'
-import { Home } from './components/Home';
-import { Features } from './components/Features';
-import { Team } from './components/Team';
-import { Contact } from './components/Contact';
-import { GettingStarted } from './components/GettingStarted';
+import { Navbar } from './components/Navbar.jsx'
+import { Home } from './components/Home.jsx';
+import { Features } from './components/Features.jsx';
+import { Team } from './components/Team.jsx';
+import { Contact } from './components/Contact.jsx';
+import { GettingStarted } from './components/GettingStarted.jsx';
 
 function App() {
 

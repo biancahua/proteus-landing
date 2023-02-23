@@ -1,35 +1,8 @@
 import { React } from 'react';
-import { Route, Routes } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faCloud, faCalendarPlus } from '@fortawesome/fontawesome-free-solid';
-import { faChartGantt, faTimeline, faCloudUpload, faCloudDownload, faCloudBolt, faRectangleAd, faUsersRectangle, faFolderPlus  } from '@fortawesome/free-solid-svg-icons';
-import { faCloudscale } from '@fortawesome/free-brands-svg-icons';
-import { faRectangleList, faRectangleTimes, faSquarePlus } from '@fortawesome/free-regular-svg-icons';
+import { faCode, faCalendarPlus } from '@fortawesome/fontawesome-free-solid';
+import { faChartGantt, faTimeline  } from '@fortawesome/free-solid-svg-icons';
 
-
-
-// export const Features = () => {
-//     return (
-//         <div id="features" class="w-full">
-//             <div className="text-center">
-//               <p className="text-4xl font-bold inline border-b-2 border-[#3f51b5">Features</p>
-//               <p className="text-lg py-6 opacity-60">Dev/Ops simplified</p>
-//             </div>
-//             <div className="w-full grid grid-cols-1 md:grid-cols-2 sm;grid-cols-2 gap-10 text-center p-8">
-//                 <div >
-//                 <p>Track active jobs</p>
-//                 </div>
-//                 <div>
-//                 <p>View old jobs, both successful and failed</p>
-//                 </div>
-//                 <div>
-//                 <p>Create new jobs and cronjobs</p>
-//                 </div>
-//             </div>
-            
-//         </div>
-//     )
-// }
 
 export const Features = () => {
   
