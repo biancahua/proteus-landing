@@ -10,7 +10,7 @@ export const Home = () => {
         <div className='p-5 text-black z-[2] text-center w-full flex flex-col justify-center items-center'>
           <h2 id="proteus-logo" className='mt-32 mb-10 max-w-[750px] shadow-white shadow-2xl'><img src="src/assets/PROTEUS3.png" alt="Logo"/></h2>
           <p className=" text-xl text-black/60">Track your Kubernetes Jobs and Cronjobs</p>
-          <button href="https://github.com/oslabs-beta/proteus" id='proteus-button'>Get Proteus</button>
+          <button onClick={() => window.location.href = 'https://github.com/oslabs-beta/proteus'} id='proteus-button'>Get Proteus</button>
         </div>
       </div>
       <div>

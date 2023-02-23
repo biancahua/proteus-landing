@@ -19,7 +19,7 @@ export const Contact = () => {
           <button className='w-60' id="contact-btn" onClick={handleClick}>LET'S TALK</button>
         </div>
         <div className="flex flex-row justify-between gap-6 py-3 mt-1">
-          <a className="hover:scale-110 duration-300" href="https://github.com/mbryan13"><FontAwesomeIcon size='2x' icon={faMedium} /></a>
+          <a className="hover:scale-110 duration-300" href="https://medium.com/@matt.henely8/proteus-8f3262cbedb9"><FontAwesomeIcon size='2x' icon={faMedium} /></a>
           <a className="hover:scale-110 duration-300" href="https://www.linkedin.com/company/proteus-app/"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
         </div>
       </div>

@@ -37,7 +37,7 @@
 #proteus-button {
   position: relative;
   background: #fff;
-  color: #000;
+  color: rgb(0, 0, 0, 0.6);
   margin-top: 4rem;
   width: 200px;
   height: 60px;
@@ -59,4 +59,12 @@
 
 #team-circle {
     border: solid 3px white inset;
+}
+
+#gs_docs {
+  text-decoration: underline;
+}
+
+#gs_docs:hover {
+  color: rgb(238, 106, 220)
 }

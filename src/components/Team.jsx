@@ -32,7 +32,7 @@ export const Team = () => {
             <p className="text-1xl py-1">Software Engineer</p>
             <div className="flex flex-row justify-between gap-6 py-3">
               <a className="hover:scale-110 duration-300" href="https://github.com/eddykaggia"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
-              <a className="hover:scale-110 duration-300" href="TBD"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
+              <a className="hover:scale-110 duration-300" href="https://www.linkedin.com/in/eddy-kaggia/"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
             </div>
           </div>
           <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
@@ -43,7 +43,7 @@ export const Team = () => {
             <p className="text-1xl py-1">Software Engineer</p>
             <div className="flex flex-row justify-between gap-6 py-3">
               <a className="hover:scale-110 duration-300" href="https://github.com/mbryan13"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
-              <a className="hover:scale-110 duration-300" href="www.linkedin.com/in/marklawbryan"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
+              <a className="hover:scale-110 duration-300" href="https://www.linkedin.com/in/marklawbryan"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
             </div>
           </div>
           <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
@@ -54,7 +54,7 @@ export const Team = () => {
             <p className="text-1xl py-1">Software Engineer</p>
             <div className="flex flex-row justify-between gap-6 py-3">
               <a className="hover:scale-110 duration-300" href="https://github.com/mhenely"><FontAwesomeIcon size='2x' icon={faGithub} /></a>
-              <a className="hover:scale-110 duration-300" href="www.linkedin.com/in/matt-henely"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
+              <a className="hover:scale-110 duration-300" href="https://www.linkedin.com/in/matt-henely"><FontAwesomeIcon size='2x' icon={faLinkedinIn} /></a>
             </div>
           </div>  
         </div>
