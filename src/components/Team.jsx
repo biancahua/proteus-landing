@@ -6,16 +6,16 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 export const Team = () => {
 
   return (
-    <div className="px-24">
-      <div className="flex flex-col justify-center max-w-[1248px] mx-auto p-4 w-full mt-40 mb-20"> 
+    <div className="md:px-24">
+      <div className="flex flex-col justify-center max-w-[1248px] mx-auto md:p-4 w-full mt-40 mb-20"> 
         <div className='flex flex-col items-center'>
           <p className='text-5xl font-bold border-b-[3px] border-y-pink pt-20'>Our Team</p>
-          <p className='text-2xl text-gray-pink py-8'>Meet the engineers behind Proteus</p>
+          <p className='md:text-2xl text-center text-gray-pink py-8'>Meet the engineers behind Proteus</p>
         </div>
-        <div className='w-full flex justify-center flex-wrap gap-10 text-center p-8'>
+        <div className='w-full flex justify-center flex-wrap gap-10 text-center md:p-8 '>
           <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
             <div id='team-circles'>
-              <img src="src/assets/bianca.png" alt="image_bianca" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
+              <img src="src/assets/bianca2.png" alt="image_bianca" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
             </div>
             <p className="text-2xl">Bianca Hua</p>
             <p className="text-1xl py-1">Software Engineer</p>
@@ -26,7 +26,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
             <div id='team-circles'>
-              <img src="src/assets/eddy.png" alt="image_eddy" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
+              <img src="src/assets/eddy2.png" alt="image_eddy" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
             </div>
             <p className="text-2xl">Eddy Kaggia</p>
             <p className="text-1xl py-1">Software Engineer</p>
@@ -37,7 +37,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
             <div id='team-circles'>
-              <img src="src/assets/mark.png" alt="image_mark" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
+              <img src="src/assets/mark2.png" alt="image_mark" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
             </div>
             <p className="text-2xl">Mark Bryan</p>
             <p className="text-1xl py-1">Software Engineer</p>
@@ -48,7 +48,7 @@ export const Team = () => {
           </div>
           <div className="flex flex-col justify-center align-center bg-gradient-to-t from-pink to-white w-72 h-96 shadow-md rounded-md  p16 pt-10 shadow-gray-pink hover:scale-110 duration-500 cursor-pointer items-center">
             <div id='team-circles'>
-              <img src="src/assets/matt.png" alt="image_matt" className='w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
+              <img src="src/assets/matt2.png" alt="image_matt" className='rotate-45 w-36 h-36 rounded-full shadow-2xl shadow-white self-center mb-12 border-2 border-white' ></img>
             </div>
             <p className="text-2xl">Matt Henely</p>
             <p className="text-1xl py-1">Software Engineer</p>

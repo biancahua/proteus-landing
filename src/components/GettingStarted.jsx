@@ -12,15 +12,32 @@ export const GettingStarted = () => {
           <p className="text-lg text-zinc-800">If you're interested in more detailed information on Proteus' features and functionality, be sure to check out our documentation. But for now, let's dive in and get started with using our app!</p>
         </div>
         <div className="flex flex-col items-center md:px-24 sm:px-8 py-10">
-          <ol className="text-lg font-bold">
-            <li>1.  Download our desktop application from GitHub</li>
-            <li>2.  Configure your Kubernetes cluster port within the application</li>
-            <li>3.  Access our application's companion image from DockerHub</li>
-            <li>4.  Ensure you have your NoSQL database URI at hand??</li>
-            <li>5.  Within the desktop application, deploy the companion image as a CronJob</li>
-            <li>6.  Scheduled Jobs will appear on the Homepage</li>
-            <li>7.  Failed Job deployments will appear in red on the Archive</li>
-          </ol>
+          <div className="text-lg font-bold">
+            <div className="flex flex-row justify-start pb-6">
+              <p className="pr-6">1.</p>
+              <p>Download our desktop application from GitHub</p>
+            </div>
+            <div className="flex flex-row justify-start pb-6">
+              <p className="pr-6">2.</p>
+              <p>Configure your Kubernetes cluster port within the application</p>
+            </div>
+            <div className="flex flex-row justify-start pb-6">
+              <p className="pr-6">3.</p>
+              <p>Access our application's companion image from DockerHub</p>
+            </div>
+            <div className="flex flex-row justify-start pb-6">
+              <p className="pr-6">4.</p>
+              <p className="flex flex-wrap">Deploy the image as a Job with your database URI and Kubernetes Cluster Service IP as environment variables and the restartPolicy set to "OnFailure"</p>
+            </div>
+            <div className="flex flex-row justify-start pb-6">
+              <p className="pr-6">5.</p>
+              <p>Scheduled Jobs will appear on the Homepage</p>
+            </div>
+            <div className="flex flex-row justify-start pb-6">
+              <p className="pr-6">6.</p>
+              <p>Failed Job deployments will appear in red on the Archive</p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="flex flex-col justify-center px-10">
